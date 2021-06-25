@@ -36,4 +36,10 @@ Write program to check if a fully completed 9x9 table is valid Sudoku solution. 
 You can find example of valid and non-valid SUDOKU solutions on the internet.
 ```
 
+## lab1_4.c
+
+```
+Convert a number to its binary format and print it.
+```
+
 
