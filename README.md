@@ -60,4 +60,25 @@ Compute min, max and average values, using pointers.
 Merge 2 sorted arrays in a new also sorted array
 ```
 
+## lab3_1.c
+
+```
+Display frequency of numbers in a given sentence
+```
+
+## lab3_2.c
+
+```
+Card Number validity algorithm
+
+1. Consider as 1st digit the last one (most right),
+as 2nd digit the semifinal, etc.
+2.Double each digit evenly. If a double digit occurs,
+add its digits (eg 7 will become 14, and finally 1 + 4 = 5).
+3. Add up all the digits of the number. If the sum is
+multiplied by 10, the number is valid, otherwise it is invalid.
+
+```
+
+
 
