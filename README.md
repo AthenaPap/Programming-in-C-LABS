@@ -72,12 +72,37 @@ Display frequency of numbers in a given sentence
 Card Number validity algorithm
 
 1. Consider as 1st digit the last one (most right),
-as 2nd digit the semifinal, etc.
-2.Double each digit evenly. If a double digit occurs,
-add its digits (eg 7 will become 14, and finally 1 + 4 = 5).
+   as 2nd digit the semifinal, etc.
+2. Double each digit evenly. If a double digit occurs,
+   add its digits (eg 7 will become 14, and finally 1 + 4 = 5).
 3. Add up all the digits of the number. If the sum is
-multiplied by 10, the number is valid, otherwise it is invalid.
+   multiplied by 10, the number is valid, otherwise it is invalid.
 
+```
+
+
+## lab3_2.c
+
+```
+Pascal Triangle
+
+The well-known Pascal triangle is a triangular arrangement of binomial coefficients. For example, for
+n = 5 is as follows:
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+
+This is a lower triangular table of n lines where the elements of the first column (column 0) and
+diagonal is equal to 1, while any other element in row i and column j is equal to the sum
+of the element just above (ie on line i - 1, column j) and of the top and left (ie
+row i - 1, column j - 1).
+You need to create an int ** pascal (int n) function?; which will dynamically construct the Pascal triangle
+with n lines and will return it. Each row of the table should have space for exactly as many items
+are needed (ie line i should have i + 1 elements).
+Main () will wait for n as the only argument (… argc, argv), it will call pascal () to make the triangle,
+will print it on the screen, and release the free memory.
 ```
 
 
