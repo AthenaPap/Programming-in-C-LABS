@@ -42,4 +42,10 @@ You can find example of valid and non-valid SUDOKU solutions on the internet.
 Convert a number to its binary format and print it.
 ```
 
+## lab2_1.c
+
+```
+Search a number using pointer
+```
+
 
