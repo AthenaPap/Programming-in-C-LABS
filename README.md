@@ -54,4 +54,10 @@ Search a number using pointer
 Compute min, max and average values, using pointers.
 ```
 
+## lab2_3.c
+
+```
+Merge 2 sorted arrays in a new also sorted array
+```
+
 
