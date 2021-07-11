@@ -48,4 +48,10 @@ Convert a number to its binary format and print it.
 Search a number using pointer
 ```
 
+## lab2_2.c
+
+```
+Compute min, max and average values, using pointers.
+```
+
 
